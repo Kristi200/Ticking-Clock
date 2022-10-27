@@ -16,7 +16,7 @@ function time(){
 
 
   const hr = date.getHours();
-  const hourDegree = ((min/12) * 360) + 90;
+  const hourDegree = ((min/12) * 360) + 180;
   hour.style.transform = `rotate(${hourDegree}deg)`;
 
 }
